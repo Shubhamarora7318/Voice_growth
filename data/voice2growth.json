@@ -1,0 +1,705 @@
+{
+  "users": [
+    {
+      "id": "fee48161-f8b2-4c6f-99c7-ed2b537efe2f",
+      "mobile_number": "+919876543210",
+      "is_verified": true,
+      "role": "user",
+      "created_at": "2026-09-15T12:27:20.219Z",
+      "updated_at": "2026-09-15T12:27:20.219Z"
+    },
+    {
+      "id": "1fb6ba28-b252-4121-bc2e-05e3e05791f3",
+      "mobile_number": "+917009306826",
+      "is_verified": true,
+      "role": "user",
+      "created_at": "2026-09-15T17:54:16.082Z",
+      "updated_at": "2026-09-15T17:54:16.082Z"
+    },
+    {
+      "id": "1d9ae9e5-2775-4bfe-82cf-088618d14ba3",
+      "mobile_number": "+919914312345",
+      "is_verified": true,
+      "role": "user",
+      "created_at": "2026-09-15T18:41:17.118Z",
+      "updated_at": "2026-09-15T18:41:17.118Z"
+    },
+    {
+      "id": "f626ee90-9db5-4b95-afde-659b6f7d5ba2",
+      "email": "shubhamarora4323@gmail.com",
+      "is_verified": true,
+      "role": "user",
+      "created_at": "2026-09-15T19:07:08.431Z",
+      "updated_at": "2026-09-15T19:07:08.431Z"
+    }
+  ],
+  "user_profiles": [
+    {
+      "id": "a37ddbce-7628-49df-812f-64467e5649cf",
+      "user_id": "1fb6ba28-b252-4121-bc2e-05e3e05791f3",
+      "display_name": "shubham",
+      "age_group": "18-24",
+      "category": "Professional",
+      "city": "Amritsar",
+      "is_anonymous": true,
+      "created_at": "2026-09-15T17:55:03.054Z",
+      "updated_at": "2026-09-15T17:56:00.282Z"
+    },
+    {
+      "id": "4463cc67-e157-4392-b428-7fa42a2401df",
+      "user_id": "f626ee90-9db5-4b95-afde-659b6f7d5ba2",
+      "display_name": "Shubhamarora",
+      "age_group": "18-24",
+      "category": "Individual",
+      "city": "Global",
+      "is_anonymous": false,
+      "created_at": "2026-09-15T19:07:08.431Z",
+      "updated_at": "2026-09-15T19:07:08.431Z"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org-apex-school",
+      "name": "Apex Academy Senior School",
+      "category": "School",
+      "location": "Metro City North",
+      "description": "K-12 Educational institution fostering innovation and holistic development.",
+      "contact_email": "feedback@apexacademy.edu",
+      "is_verified": true,
+      "created_at": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "org-city-college",
+      "name": "State Polytechnic & Tech College",
+      "category": "College",
+      "location": "Metro South Campus",
+      "description": "Engineering and vocational college with over 6,000 active students.",
+      "contact_email": "studentcare@statepolytech.edu",
+      "is_verified": true,
+      "created_at": "2026-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "org-metro-retail",
+      "name": "Metro Hypermarket & Pharmacy Outlets",
+      "category": "Outlet",
+      "location": "Central Mall & Express Hubs",
+      "description": "Multi-outlet neighborhood retailer serving daily essentials and health supplies.",
+      "contact_email": "support@metrohyper.com",
+      "is_verified": true,
+      "created_at": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": "org-civic-trust",
+      "name": "GreenCivic Community Network",
+      "category": "Community",
+      "location": "Regional District",
+      "description": "Citizen welfare association dedicated to clean public spaces and digital civic tools.",
+      "contact_email": "contact@greencivic.org",
+      "is_verified": true,
+      "created_at": "2026-02-10T00:00:00.000Z"
+    }
+  ],
+  "topics": [
+    {
+      "id": "t-edu",
+      "name": "Education & Student Life",
+      "category": "Education",
+      "description": "Curriculum, exams, attendance, and campus experiences",
+      "is_active": true
+    },
+    {
+      "id": "t-tech",
+      "name": "Technology & Automation",
+      "category": "Technology",
+      "description": "Digital transformation, AI, software, and tools",
+      "is_active": true
+    },
+    {
+      "id": "t-career",
+      "name": "Career & Workplace Culture",
+      "category": "Professional",
+      "description": "Job growth, work-life balance, freelancing, and skills",
+      "is_active": true
+    },
+    {
+      "id": "t-biz",
+      "name": "Business & Customer Experience",
+      "category": "Business",
+      "description": "Retail, service quality, pricing, and convenience",
+      "is_active": true
+    },
+    {
+      "id": "t-comm",
+      "name": "Community & Civic Development",
+      "category": "Community",
+      "description": "Public spaces, neighborhood welfare, and social initiatives",
+      "is_active": true
+    },
+    {
+      "id": "t-env",
+      "name": "Environment & Sustainability",
+      "category": "Environment",
+      "description": "Green practices, waste segregation, and energy",
+      "is_active": true
+    },
+    {
+      "id": "t-health",
+      "name": "Healthcare & Well-being",
+      "category": "Healthcare",
+      "description": "Mental health, clinic accessibility, and preventive care",
+      "is_active": true
+    },
+    {
+      "id": "t-trans",
+      "name": "Transport & Commute",
+      "category": "Transport",
+      "description": "Public transit, safety, roads, and connectivity",
+      "is_active": true
+    }
+  ],
+  "opinions": [
+    {
+      "user_id": "1fb6ba28-b252-4121-bc2e-05e3e05791f3",
+      "topic_id": "t-edu",
+      "topic_name": "Education & Student Life",
+      "current_opinion": "Changed the Full Education System, and screening should be there with fun activities.",
+      "was_different": "Not Sure",
+      "reasons_for_change": [
+        "Personal Experience"
+      ],
+      "confidence_score": 90,
+      "visibility": "anonymous",
+      "status": "published",
+      "author_name": "Anonymous Voice",
+      "author_category": "Professional",
+      "author_city": "Amritsar",
+      "id": "6e4b03ed-2540-4ea4-9be4-7acd40017a17",
+      "upvotes": 0,
+      "created_at": "2026-09-15T18:16:50.528Z",
+      "updated_at": "2026-09-15T18:16:50.528Z"
+    },
+    {
+      "id": "op-1",
+      "user_id": "seed-user-1",
+      "topic_id": "t-edu",
+      "topic_name": "Education & Student Life",
+      "current_opinion": "Continuous practical projects are far more effective at developing real-world skills than semester-end memorization exams.",
+      "previous_opinion": "I used to believe that high test scores in standardized exams were the only objective proof of intelligence and readiness.",
+      "was_different": "Yes",
+      "reasons_for_change": [
+        "Work Experience",
+        "Personal Experience",
+        "Teacher/Mentor"
+      ],
+      "explanation_for_change": "After joining my first internship, I realized that problem-solving and self-learning mattered 10x more than memorized textbook definitions.",
+      "confidence_score": 95,
+      "visibility": "public",
+      "status": "published",
+      "author_name": "Aarav Patel",
+      "author_category": "College",
+      "author_city": "Bangalore",
+      "upvotes": 42,
+      "created_at": "2026-08-10T00:00:00.000Z",
+      "updated_at": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "op-2",
+      "user_id": "seed-user-2",
+      "topic_id": "t-biz",
+      "topic_name": "Business & Customer Experience",
+      "current_opinion": "Retail outlets must prioritize quick checkout lines and transparent pricing above flash sales; time savings create true customer loyalty.",
+      "previous_opinion": "I thought discounts alone determined where shoppers went.",
+      "was_different": "Yes",
+      "reasons_for_change": [
+        "Customer Experience",
+        "Personal Experience"
+      ],
+      "explanation_for_change": "Standing 25 minutes in a weekend billing queue completely canceled out whatever discount I received.",
+      "confidence_score": 90,
+      "visibility": "public",
+      "status": "published",
+      "author_name": "Priya Sharma",
+      "author_category": "Professional",
+      "author_city": "Mumbai",
+      "upvotes": 28,
+      "created_at": "2026-08-22T00:00:00.000Z",
+      "updated_at": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "id": "op-3",
+      "user_id": "seed-user-3",
+      "topic_id": "t-tech",
+      "topic_name": "Technology & Automation",
+      "current_opinion": "AI will not replace educators, but will free teachers from administrative grading to focus on 1-on-1 mentorship.",
+      "previous_opinion": "I feared automated learning tools would dehumanize classroom education.",
+      "was_different": "Yes",
+      "reasons_for_change": [
+        "Technology",
+        "Research",
+        "Education"
+      ],
+      "explanation_for_change": "Observing pilot classrooms where AI handled attendance and routine worksheets showed teachers spending more time with struggling students.",
+      "confidence_score": 88,
+      "visibility": "public",
+      "status": "published",
+      "author_name": "Ananya Deshmukh",
+      "author_category": "School",
+      "author_city": "Pune",
+      "upvotes": 35,
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "op-4",
+      "user_id": "seed-user-4",
+      "topic_id": "t-comm",
+      "topic_name": "Community & Civic Development",
+      "current_opinion": "Community playgrounds and green parks should be accessible within a 10-minute walk for every residential cluster.",
+      "was_different": "No",
+      "reasons_for_change": [
+        "Personal Experience"
+      ],
+      "explanation_for_change": "Physical activity and safe open spaces are essential for children and senior citizens alike.",
+      "confidence_score": 98,
+      "visibility": "public",
+      "status": "published",
+      "author_name": "Citizen Voice",
+      "author_category": "Community",
+      "author_city": "Delhi",
+      "upvotes": 19,
+      "created_at": "2026-09-05T00:00:00.000Z",
+      "updated_at": "2026-09-05T00:00:00.000Z"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "sug-1",
+      "user_id": "seed-user-1",
+      "title": "Replace roll-call attendance with dynamic QR and classroom kiosk",
+      "target_organization_id": "org-city-college",
+      "target_organization_name": "State Polytechnic & Tech College",
+      "what_should_change": "Transition from manual 15-minute roll calls in 80-student lectures to a 30-second rotating QR check-in on the campus intranet.",
+      "why_change": "Lecturers spend 15% of each class period calling names instead of teaching or discussing doubts.",
+      "beneficiaries": "Students, Faculty, and Academic Administration",
+      "implementation_plan": "Display a dynamic, one-time geofenced QR code on the lecture projector at the beginning of class, scanned via the student mobile portal.",
+      "expected_impact": "Saves 12 classroom hours per semester per student and generates automated attendance analytics for academic counselors.",
+      "status": "Accepted",
+      "visibility": "public",
+      "author_name": "Aarav Patel",
+      "created_at": "2026-08-12T00:00:00.000Z",
+      "updated_at": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "id": "sug-2",
+      "user_id": "seed-user-2",
+      "title": "Self-checkout express kiosk for 5 items or fewer at supermarket outlets",
+      "target_organization_id": "org-metro-retail",
+      "target_organization_name": "Metro Hypermarket & Pharmacy Outlets",
+      "what_should_change": "Introduce a dedicated express self-checkout kiosk lane for shoppers purchasing 1 to 5 daily essentials.",
+      "why_change": "Customers wanting a single bottle of milk or prescription are forced to wait behind shoppers with full grocery carts.",
+      "beneficiaries": "Working professionals, quick shoppers, and cashier staff during rush hours.",
+      "implementation_plan": "Install two barcode scanning tablets with UPI/card tap payments beside the exit supervisor.",
+      "expected_impact": "Reduces peak-hour wait times by 40% and boosts basket velocity for quick-trip shoppers.",
+      "status": "In Discussion",
+      "visibility": "public",
+      "author_name": "Priya Sharma",
+      "created_at": "2026-08-28T00:00:00.000Z",
+      "updated_at": "2026-09-02T00:00:00.000Z"
+    }
+  ],
+  "ideas": [
+    {
+      "id": "idea-1",
+      "user_id": "seed-user-1",
+      "category": "Education",
+      "title": "Peer-to-Peer Micro-Mentorship & Skill Exchange for High Schoolers",
+      "problem_description": "High school students from non-metro towns lack guidance on entrance tests, college course options, and vocational opportunities.",
+      "proposed_solution": "A verified micro-mentorship web platform connecting 11th/12th grade students with college seniors for 20-minute audio guidance sessions.",
+      "target_audience": "Tier 2/3 high school students, college student volunteers.",
+      "expected_benefit": "Accessible, relatable guidance without expensive coaching consultancy fees.",
+      "expected_impact": "5,000+ students guided each year with increased confidence in career trajectory.",
+      "required_resources": "Web portal, mentor verification mechanism, video/audio WebRTC room.",
+      "status": "Shortlisted",
+      "visibility": "public",
+      "author_name": "Aarav Patel",
+      "status_history": [
+        {
+          "status": "Submitted",
+          "notes": "Initial submission received",
+          "updated_at": "2026-08-14T00:00:00.000Z",
+          "updated_by": "System"
+        },
+        {
+          "status": "Under Review",
+          "notes": "Reviewed by Education Advisory Board",
+          "updated_at": "2026-08-18T00:00:00.000Z",
+          "updated_by": "Admin"
+        },
+        {
+          "status": "Shortlisted",
+          "notes": "Selected for pilot testing with partner colleges",
+          "updated_at": "2026-08-29T00:00:00.000Z",
+          "updated_by": "Org Reviewer"
+        }
+      ],
+      "created_at": "2026-08-14T00:00:00.000Z",
+      "updated_at": "2026-08-29T00:00:00.000Z"
+    },
+    {
+      "id": "idea-2",
+      "user_id": "seed-user-3",
+      "category": "Technology",
+      "title": "Automated Solar Canopy with Electric Two-Wheeler Charging for Campuses",
+      "problem_description": "Bicycle and scooter parking spaces in colleges and offices remain unshaded, while EV users have no reliable campus charging.",
+      "proposed_solution": "Dual-purpose solar roof sheds over two-wheeler parking that generate clean power and provide 3.3kW slow-charging sockets.",
+      "target_audience": "Colleges, IT parks, hospital campuses, and EV commuters.",
+      "expected_benefit": "Provides shade protection for vehicles, offsets campus electricity bill, and promotes green commuting.",
+      "expected_impact": "Up to 30% reduction in parking lot heat island effect and net-positive green energy generation.",
+      "required_resources": "Solar PV modules, mild steel framing, smart metering circuit.",
+      "status": "Accepted",
+      "visibility": "public",
+      "author_name": "Ananya Deshmukh",
+      "status_history": [
+        {
+          "status": "Submitted",
+          "notes": "Idea submitted",
+          "updated_at": "2026-08-20T00:00:00.000Z",
+          "updated_by": "System"
+        },
+        {
+          "status": "Under Review",
+          "notes": "Feasibility assessed by campus infrastructure committee",
+          "updated_at": "2026-08-25T00:00:00.000Z",
+          "updated_by": "Campus Admin"
+        },
+        {
+          "status": "In Discussion",
+          "notes": "Vendor quotation phase",
+          "updated_at": "2026-09-03T00:00:00.000Z",
+          "updated_by": "Procurement"
+        },
+        {
+          "status": "Accepted",
+          "notes": "Approved for Phase 1 installation in South Parking",
+          "updated_at": "2026-09-10T00:00:00.000Z",
+          "updated_by": "Principal Office"
+        }
+      ],
+      "created_at": "2026-08-20T00:00:00.000Z",
+      "updated_at": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "idea-3",
+      "user_id": "seed-user-4",
+      "category": "Community",
+      "title": "Neighborhood Food Rescue & Surplus Redistribution Network",
+      "problem_description": "Excess banquet, restaurant, and grocery food is discarded daily while nearby shelter homes experience nutrition deficits.",
+      "proposed_solution": "A localized SMS/app dispatch system allowing catering kitchens to broadcast verified surplus pickups to certified local NGO runners.",
+      "target_audience": "Restaurants, event organizers, local NGO food banks.",
+      "expected_benefit": "Zero landfill edible waste and dignified nutritional support.",
+      "expected_impact": "Over 200 meals rescued per community zone daily.",
+      "status": "Implemented",
+      "visibility": "public",
+      "author_name": "Rohan Gupta",
+      "status_history": [
+        {
+          "status": "Submitted",
+          "updated_at": "2026-07-01T00:00:00.000Z",
+          "updated_by": "System"
+        },
+        {
+          "status": "Accepted",
+          "notes": "Adopted by GreenCivic Network",
+          "updated_at": "2026-07-15T00:00:00.000Z",
+          "updated_by": "GreenCivic"
+        },
+        {
+          "status": "Implemented",
+          "notes": "Live pilot running across 8 restaurant hubs",
+          "updated_at": "2026-08-15T00:00:00.000Z",
+          "updated_by": "Civic Admin"
+        }
+      ],
+      "created_at": "2026-07-01T00:00:00.000Z",
+      "updated_at": "2026-08-15T00:00:00.000Z"
+    }
+  ],
+  "business_feedback": [
+    {
+      "id": "bf-1",
+      "user_id": "seed-user-2",
+      "business_name": "Metro Hypermarket",
+      "outlet_name": "Central Mall Branch",
+      "category": "Retail & Grocery",
+      "location": "Central Mall, 1st Floor",
+      "what_liked": "Fresh produce section is well maintained and organic veggies are clearly labeled.",
+      "what_disliked": "Only two checkout counters open during Sunday evening 6pm-8pm rush hour.",
+      "what_should_improve": "Staff allocation during peak shopping windows and price scanner readability.",
+      "what_introduce": "Mobile self-scan app where shoppers scan barcodes while walking and pay directly.",
+      "growth_suggestion": "Piloting a scan-and-go mobile app will differentiate this outlet from competitors and eliminate long queues.",
+      "business_impact": [
+        "Increase Customer Satisfaction",
+        "Increase Revenue",
+        "Improve Service",
+        "Improve Customer Retention"
+      ],
+      "status": "Reviewed",
+      "visibility": "public",
+      "author_name": "Priya Sharma",
+      "created_at": "2026-08-25T00:00:00.000Z"
+    }
+  ],
+  "community_ideas": [
+    {
+      "id": "ci-1",
+      "user_id": "seed-user-4",
+      "topic_category": "Environment",
+      "problem": "Street corners often accumulate unsegregated dry/wet waste due to missing public collection bins.",
+      "proposed_solution": "Color-coded community bins with clear visual iconography and sensor-triggered waste collection alerts.",
+      "target_community": "Ward 14 residents and municipal sanitation teams.",
+      "expected_benefit": "Clean, hygienic streets and higher recycling separation rates.",
+      "required_resources": "Standardized weather-proof bins, signage, sanitation schedule integration.",
+      "expected_impact": "Cleaner neighborhoods with 60% increase in source waste segregation.",
+      "status": "In Discussion",
+      "visibility": "public",
+      "author_name": "Citizen Voice",
+      "created_at": "2026-09-02T00:00:00.000Z"
+    }
+  ],
+  "technology_ideas": [
+    {
+      "id": "ti-1",
+      "user_id": "seed-user-3",
+      "problem": "Laboratory equipment maintenance logs in engineering colleges are maintained in paper registers, leading to undetected breakdowns.",
+      "current_process": "Lab assistants record service dates in handwritten logbooks, often missed until a device fails mid-experiment.",
+      "proposed_technology": "NFC tag stickers on every device linked to a lightweight progressive web maintenance log with automated calibration alerts.",
+      "automation_opportunity": "Automatic maintenance scheduling, predictive part replacement notifications, and QR breakdown reporting for students.",
+      "expected_benefit": "99% equipment uptime and transparent departmental asset audits.",
+      "estimated_complexity": "Medium",
+      "status": "Shortlisted",
+      "visibility": "public",
+      "author_name": "Ananya Deshmukh",
+      "created_at": "2026-09-04T00:00:00.000Z"
+    }
+  ],
+  "user_consents": [],
+  "audit_logs": [
+    {
+      "id": "5726c7be-3f09-4e4d-a2fa-f5599d11a233",
+      "user_id": "f626ee90-9db5-4b95-afde-659b6f7d5ba2",
+      "action": "USER_LOGIN",
+      "target_type": "user",
+      "target_id": "f626ee90-9db5-4b95-afde-659b6f7d5ba2",
+      "details": "User logged in via Gmail Shubhamarora4323@gmail.com",
+      "created_at": "2026-09-15T19:17:44.019Z"
+    },
+    {
+      "id": "ec47b56b-a549-4fb3-b393-94fef2374e26",
+      "user_id": "system",
+      "action": "OTP_REQUESTED",
+      "target_type": "email",
+      "target_id": "Shubhamarora4323@gmail.com",
+      "details": "OTP generated",
+      "created_at": "2026-09-15T19:17:41.720Z"
+    },
+    {
+      "id": "7ce71592-f996-4d38-910a-c5dd25e4ff96",
+      "user_id": "f626ee90-9db5-4b95-afde-659b6f7d5ba2",
+      "action": "USER_LOGOUT",
+      "target_type": "session",
+      "target_id": "r8vy1cyh",
+      "details": "Session ended and cache memory cleared",
+      "created_at": "2026-09-15T19:16:38.041Z"
+    },
+    {
+      "id": "4969408c-198a-4001-82f3-5c8dfccfa770",
+      "user_id": "f626ee90-9db5-4b95-afde-659b6f7d5ba2",
+      "action": "USER_LOGIN",
+      "target_type": "user",
+      "target_id": "f626ee90-9db5-4b95-afde-659b6f7d5ba2",
+      "details": "User logged in via Gmail Shubhamarora4323@gmail.com",
+      "created_at": "2026-09-15T19:16:34.246Z"
+    },
+    {
+      "id": "631498ed-120c-4529-b284-f673ef92334c",
+      "user_id": "system",
+      "action": "OTP_REQUESTED",
+      "target_type": "email",
+      "target_id": "Shubhamarora4323@gmail.com",
+      "details": "OTP generated",
+      "created_at": "2026-09-15T19:15:06.458Z"
+    },
+    {
+      "id": "4eb14f31-4d4c-4f9d-846f-7f21d3eab6d8",
+      "user_id": "f626ee90-9db5-4b95-afde-659b6f7d5ba2",
+      "action": "USER_LOGIN",
+      "target_type": "user",
+      "target_id": "f626ee90-9db5-4b95-afde-659b6f7d5ba2",
+      "details": "User logged in via Gmail Shubhamarora4323@gmail.com",
+      "created_at": "2026-09-15T19:07:08.431Z"
+    },
+    {
+      "id": "84080fd1-ad6c-4709-9205-9b679a3232c5",
+      "user_id": "system",
+      "action": "OTP_REQUESTED",
+      "target_type": "email",
+      "target_id": "Shubhamarora4323@gmail.com",
+      "details": "OTP generated",
+      "created_at": "2026-09-15T19:07:05.812Z"
+    },
+    {
+      "id": "c11ec15c-3603-434d-8e4b-b54b439f6423",
+      "user_id": "system",
+      "action": "OTP_REQUESTED",
+      "target_type": "mobile",
+      "target_id": "+919876543210",
+      "details": "OTP generated",
+      "created_at": "2026-09-15T18:46:27.673Z"
+    },
+    {
+      "id": "ab68cba4-53f8-4974-b092-f99587178820",
+      "user_id": "1d9ae9e5-2775-4bfe-82cf-088618d14ba3",
+      "action": "USER_LOGOUT",
+      "target_type": "session",
+      "target_id": "jvld7unc",
+      "details": "Session ended and cache memory cleared",
+      "created_at": "2026-09-15T18:41:43.724Z"
+    },
+    {
+      "id": "2271b2ea-c3fc-474c-b32e-e596942d371c",
+      "user_id": "1d9ae9e5-2775-4bfe-82cf-088618d14ba3",
+      "action": "USER_LOGIN",
+      "target_type": "user",
+      "target_id": "1d9ae9e5-2775-4bfe-82cf-088618d14ba3",
+      "details": "User logged in via mobile +919914312345",
+      "created_at": "2026-09-15T18:41:17.119Z"
+    },
+    {
+      "id": "23efc454-105d-4c15-9cb7-016d77404e8c",
+      "user_id": "system",
+      "action": "OTP_REQUESTED",
+      "target_type": "mobile",
+      "target_id": "+919914312345",
+      "details": "OTP dispatched",
+      "created_at": "2026-09-15T18:41:14.421Z"
+    },
+    {
+      "id": "f73e6b36-1963-463d-b5f2-7f1f1419e2c0",
+      "user_id": "1fb6ba28-b252-4121-bc2e-05e3e05791f3",
+      "action": "USER_LOGOUT",
+      "target_type": "session",
+      "target_id": "amj27nc8",
+      "details": "Session ended and cache memory cleared",
+      "created_at": "2026-09-15T18:31:38.422Z"
+    },
+    {
+      "id": "2bde5bc3-a2c7-4770-9fdc-eabbf53abb54",
+      "user_id": "1fb6ba28-b252-4121-bc2e-05e3e05791f3",
+      "action": "USER_LOGIN",
+      "target_type": "user",
+      "target_id": "1fb6ba28-b252-4121-bc2e-05e3e05791f3",
+      "details": "User logged in via mobile +917009306826",
+      "created_at": "2026-09-15T18:31:22.746Z"
+    },
+    {
+      "id": "74ea5080-5187-4ccd-af85-69cdc938ea94",
+      "user_id": "system",
+      "action": "OTP_REQUESTED",
+      "target_type": "mobile",
+      "target_id": "+917009306826",
+      "details": "OTP dispatched",
+      "created_at": "2026-09-15T18:31:19.371Z"
+    },
+    {
+      "id": "b4c38c35-62e1-46db-8bfc-5468913da8ce",
+      "user_id": "1fb6ba28-b252-4121-bc2e-05e3e05791f3",
+      "action": "OPINION_CREATED",
+      "target_type": "opinion",
+      "target_id": "6e4b03ed-2540-4ea4-9be4-7acd40017a17",
+      "details": "Opinion submitted",
+      "created_at": "2026-09-15T18:16:50.528Z"
+    },
+    {
+      "id": "4ef8a72f-755d-454a-812a-89838e7157b0",
+      "user_id": "1fb6ba28-b252-4121-bc2e-05e3e05791f3",
+      "action": "USER_LOGIN",
+      "target_type": "user",
+      "target_id": "1fb6ba28-b252-4121-bc2e-05e3e05791f3",
+      "details": "User logged in via mobile +917009306826",
+      "created_at": "2026-09-15T18:15:33.686Z"
+    },
+    {
+      "id": "7d653643-a020-40ae-b696-c8d2d5538144",
+      "user_id": "system",
+      "action": "OTP_REQUESTED",
+      "target_type": "mobile",
+      "target_id": "+917009306826",
+      "details": "OTP dispatched",
+      "created_at": "2026-09-15T18:15:29.010Z"
+    },
+    {
+      "id": "32df732d-1497-417a-874a-e6e9d7928426",
+      "user_id": "1fb6ba28-b252-4121-bc2e-05e3e05791f3",
+      "action": "PROFILE_UPDATED",
+      "target_type": "profile",
+      "target_id": "a37ddbce-7628-49df-812f-64467e5649cf",
+      "details": "User profile saved",
+      "created_at": "2026-09-15T17:56:00.282Z"
+    },
+    {
+      "id": "5c1ad8ad-a249-4d11-9b5e-80f76543fa1a",
+      "user_id": "1fb6ba28-b252-4121-bc2e-05e3e05791f3",
+      "action": "PROFILE_UPDATED",
+      "target_type": "profile",
+      "target_id": "a37ddbce-7628-49df-812f-64467e5649cf",
+      "details": "User profile saved",
+      "created_at": "2026-09-15T17:55:20.494Z"
+    },
+    {
+      "id": "e8725298-bccb-4165-94ba-f12dd8f5c6f9",
+      "user_id": "1fb6ba28-b252-4121-bc2e-05e3e05791f3",
+      "action": "PROFILE_UPDATED",
+      "target_type": "profile",
+      "target_id": "a37ddbce-7628-49df-812f-64467e5649cf",
+      "details": "User profile saved",
+      "created_at": "2026-09-15T17:55:03.054Z"
+    },
+    {
+      "id": "4174e2e8-0de0-462c-9249-f75f2c38c78d",
+      "user_id": "1fb6ba28-b252-4121-bc2e-05e3e05791f3",
+      "action": "USER_LOGIN",
+      "target_type": "user",
+      "target_id": "1fb6ba28-b252-4121-bc2e-05e3e05791f3",
+      "details": "User logged in via mobile +917009306826",
+      "created_at": "2026-09-15T17:54:16.083Z"
+    },
+    {
+      "id": "0e5da05a-6342-453b-87c6-0d468e454fab",
+      "user_id": "system",
+      "action": "OTP_REQUESTED",
+      "target_type": "mobile",
+      "target_id": "+917009306826",
+      "details": "OTP dispatched",
+      "created_at": "2026-09-15T17:53:18.517Z"
+    },
+    {
+      "id": "8b3c6a37-053a-4d41-930b-75a548c95b5e",
+      "user_id": "fee48161-f8b2-4c6f-99c7-ed2b537efe2f",
+      "action": "USER_LOGIN",
+      "target_type": "user",
+      "target_id": "fee48161-f8b2-4c6f-99c7-ed2b537efe2f",
+      "details": "User logged in via mobile +919876543210",
+      "created_at": "2026-09-15T12:27:20.219Z"
+    },
+    {
+      "id": "604824f6-365b-4ce1-a52c-7718be6eb9a1",
+      "user_id": "system",
+      "action": "OTP_REQUESTED",
+      "target_type": "mobile",
+      "target_id": "+919876543210",
+      "details": "OTP dispatched",
+      "created_at": "2026-09-15T12:27:08.913Z"
+    }
+  ],
+  "content_reports": []
+}

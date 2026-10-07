@@ -1,0 +1,6 @@
+{
+  "name": "Voice2Growth",
+  "description": "A platform where individuals, educational institutions, professional communities, businesses, and outlets share opinions, ideas, and suggestions to drive actionable growth.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
